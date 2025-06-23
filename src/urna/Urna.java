@@ -35,8 +35,7 @@ public class Urna {
                     System.out.println(pessoadovoto);
                     pessoadovoto.adicionarUmVoto();
                 }
-            }
-            if (menu == 2) {
+            }if (menu == 2) {
                 Pessoa pessoa = new Pessoa();
                 System.out.println("-------Cadastro de Candidato-------");
                 System.out.println("Digite o nome do candidato: ");
@@ -49,8 +48,7 @@ public class Urna {
                 System.out.println("-----------------------------------");
                 System.out.println("Candidato cadastrado com sucesso");
                 System.out.println("-----------------------------------");
-            }
-            if (menu == 3) {
+            }if (menu == 3) {
                 Pessoa maior = listacandidato.pegarVotoPosicao(0);
                 int indice = 0;
                 Pessoa nulo = listacandidato.pegarPessoaPosicao(0);
