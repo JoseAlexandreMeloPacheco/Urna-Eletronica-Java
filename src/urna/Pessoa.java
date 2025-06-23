@@ -4,7 +4,6 @@ public class Pessoa {
     private String nome;
     private int numero;
     private int votoRecebido = 0;
-
     public int getNumero() {
         return numero;
     }
@@ -26,5 +25,4 @@ public class Pessoa {
     public String toString() {
         return nome;
     }
-
 }
